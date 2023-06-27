@@ -747,7 +747,7 @@ with gr.Blocks(css=css) as interface:
                         )
 
                     with gr.Box(visible=True) as input_video_group:
-                        video_input = gr.Text(
+                        video_input = gr.Video(
                             label="Target Video Path", interactive=True
                         )
                         with gr.Accordion("✂️ Trim video", open=False):
